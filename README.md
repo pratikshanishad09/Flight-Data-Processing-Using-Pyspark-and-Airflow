@@ -73,22 +73,27 @@ docker compose up airflow-init
 docker compose up
 ```
 
-###2. 🌐 Access Airflow UI
+### 2. 🌐 Access Airflow UI
 
 Open http://localhost:8080
 Login (default):
+
 Username: airflow
+
 Password: airflow
 
-###3. ✅ Enable and Trigger DAG
+### 3. ✅ Enable and Trigger DAG
 
 Turn on the flight_etl_pipeline DAG
+
 Trigger it manually or wait for schedule
 
-##📝 Future Enhancements
+## 📝 Future Enhancements
 
 Add logging & data quality checks
+
 Store processed data in cloud (AWS/GCP/Azure)
+
 Add alerting via email/Slack on DAG failure
 
 
