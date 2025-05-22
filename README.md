@@ -30,14 +30,23 @@ To build a data pipeline that:
 ## 📂 Folder Structure
 
 Flight-Data-Pipeline/
+
 │
+
 ├── dags/
+
 │ └── flight_etl_pipeline.py # Airflow DAG file
+
 ├── data/
+
 │ └── clean_flight_data.csv # Cleaned sample data (optional)
+
 ├── docker-compose.yml # Docker setup for Airflow
+
 ├── requirements.txt # (Optional) Python package list
+
 ├── README.md # Project overview
+
 └── .gitignore # Git ignore rules
 
 
@@ -62,6 +71,7 @@ Flight-Data-Pipeline/
 ```bash
 docker compose up airflow-init
 docker compose up
+'''
 
 ###2. 🌐 Access Airflow UI
 
