@@ -71,7 +71,7 @@ Flight-Data-Pipeline/
 ```bash
 docker compose up airflow-init
 docker compose up
-'''
+```
 
 ###2. 🌐 Access Airflow UI
 
